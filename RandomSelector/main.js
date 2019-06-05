@@ -94,35 +94,35 @@ $(document).ready(function(){
         }
     },function(){if(change)$("#mai").attr({style:"background-color:white"});})
     $("#ra").click(function(){
-        $("h1").text("拉麵");
+        $("h1").text("R6");
         allwhite();
         $("#ra").attr({style:"background-color:green"});
         $("#link").attr("href","https://rainbow6.ubisoft.com/siege/zh-tw/home/index.aspx")
         change=!change;
     })
     $("#lu").click(function(){
-        $("h1").text("滷肉飯");
+        $("h1").text("Minecraft");
         allwhite();
         $("#lu").attr({style:"background-color:green"});
         $("#link").attr("href","https://www.minecraft.net/zh-hant/")
         change=!change;
     })
     $("#swea").click(function(){
-        $("h1").text("水餃");
+        $("h1").text("LOL");
         allwhite();
         $("#swea").attr({style:"background-color:green"});
         $("#link").attr("href","https://na.leagueoflegends.com/en/")
         change=!change;
     })
     $("#sou").click(function(){
-        $("h1").text("燒肉飯");
+        $("h1").text("GTA");
         allwhite();
         $("#sou").attr({style:"background-color:green"});
         $("#link").attr("href","https://www.rockstargames.com/GTAOnline/tw")
         change=!change;
     })
     $("#mai").click(function(){
-        $("h1").text("麥當當");
+        $("h1").text("弓箭傳說");
         allwhite();
         $("#mai").attr({style:"background-color:green"});
         $("#link").attr("href","")
