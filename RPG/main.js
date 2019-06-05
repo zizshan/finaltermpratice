@@ -4,16 +4,16 @@ $(document).ready(function(){
     mapArray=[0,1,1,0,0,0,3,1,2];
     ctx=$("#mycanvas")[0].getContext("2d");
     imgmain=new Image();
-    imgmain.src="../RPG/images/spriteSheet.png";
+    imgmain.src="images/spriteSheet.png";
     currentimgMX=0;
     currentimgMY=0;
     imgmain.onload=function(){
         ctx.drawImage(imgmain,0,0,80,130,currentimgMX,currentimgMY,200,200)
     }
     imgMount=new Image();
-    imgMount.src="../RPG/images/material.png";
+    imgMount.src="images/material.png";
     imgEnemy=new Image();
-    imgEnemy.src="../RPG/images/Enemy.png";
+    imgEnemy.src="images/Enemy.png";
     imgMount.onload=function(){
         imgEnemy.onload=function(){
             for(var x in mapArray)
