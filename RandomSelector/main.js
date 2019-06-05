@@ -3,17 +3,17 @@
     //document.write("Hello World!!");
 //};
 var ramen=new Image(600,480);
-ramen.src='ramen.jpg';
+ramen.src='RandomSelector/ramen.jpg';
 var ruloufan=new Image(600,480);
-ruloufan.src='ruloufan.png';
+ruloufan.src='RandomSelector/ruloufan.png';
 var sweajar=new Image(600,480);
-sweajar.src='sweajar.jpg';
+sweajar.src='RandomSelector/sweajar.jpg';
 var soulafan=new Image(600,480);
-soulafan.src='soulafan.jpg';
+soulafan.src='RandomSelector/soulafan.jpg';
 var maidundun=new Image(600,480);
-maidundun.src='miadundun.jpg';
+maidundun.src='RandomSelector/miadundun.jpg';
 var quest=new Image(600,480);
-quest.src='quest.jpg';
+quest.src='RandomSelector/quest.jpg';
 var change=true;
 function allwhite(){
     $("#ra").attr({style:"background-color:white"});
