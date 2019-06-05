@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+table{
+    width:60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+td{
+    border-bottom: 1px solid blue;
+    background-color: aquamarine;
+}
+canvas{
+    border: :2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+#talk{
+    height: :20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}
